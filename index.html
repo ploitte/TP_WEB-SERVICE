@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TpWS</title>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="menu">
+
+    <form class="addFestival">
+            <input id="name" type="text">
+            <input id="lat"  type="text">
+            <input id="lng"  type="text">
+            <input id="jazz"  type="checkbox">
+            <input id="rock"  type="checkbox">
+            <input id="metal" type="checkbox">
+            <input id="rap"   type="checkbox">
+            <input id="autre" type="checkbox">
+    </form>
+
+
+</div>
+
+
+
+
+
+
+<script src="libs/jquery.js"></script>
+<script src="libs/ui/jquery-ui.min.js"></script> 
+<script src="js/class/App.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOm6R4CGu8N_8H4v_aa1c3zHrOmh8oxYs&callback=app.initMap" async defer></script>
+</body>
+</html>
